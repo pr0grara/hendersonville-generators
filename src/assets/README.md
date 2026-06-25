@@ -15,13 +15,13 @@ resizes/compresses them at build; only the optimized variants ship.
 
 ## ⚠️ These are PLACEHOLDERS
 
-The current images are **free-licensed septic photos pulled from Wikimedia Commons** so the build
-resolves and the site looks like a real septic business, not broken. They are generic stock — pump
-trucks, open tanks, and a drain-field trench, none of them shot in Western NC. **Replace them with
-real job photos before launch** — real local proof (your actual truck, a tank being pumped on a
-mountain lot, your crew on a Buncombe County property) is load-bearing for this kind of site
-(see SPEC §2). Keep the same filenames (or update the `import`s in `src/config/services.ts`) so
-nothing breaks.
+The current images are **free-licensed standby-generator photos pulled from Wikimedia Commons** so
+the build resolves and the site looks like a real generator business, not broken. They are generic
+stock — standby units, transfer switches, and install/service shots, none of them shot in Western
+NC. **Replace them with real job photos before launch** — real local proof (a unit you installed,
+a generator running on a mountain lot, your crew on a Henderson County property) is load-bearing
+for this kind of site (see SPEC §2). Keep the same filenames (or update the `import`s in
+`src/config/services.ts`) so nothing breaks.
 
 > Source/licensing note: placeholders came from Wikimedia Commons (a mix of CC0, public domain,
 > and CC BY / CC BY-SA). They're fine as stand-ins, but confirm licensing/attribution or, better,
@@ -33,13 +33,14 @@ nothing breaks.
 | File | Used by |
 |---|---|
 | `hero/hero.jpg` | site-wide default hero (`src/lib/images.ts` → `defaultHero`) + source for `public/og.jpg` |
-| `services/septic-services.jpg` | `septic-services` service (hub catch-all) |
-| `services/septic-tank-pumping.jpg` | `septic-tank-pumping` service |
-| `services/septic-tank-cleaning.jpg` | `septic-tank-cleaning` service |
-| `services/septic-system-repair.jpg` | `septic-system-repair` service |
-| `services/septic-inspections.jpg` | `septic-inspections` service |
-| `services/drain-field-repair.jpg` | `drain-field-repair` service |
-| `services/emergency-septic-service.jpg` | `emergency-septic-service` service (emergency) |
+| `services/generator-services.jpg` | `generator-services` service (hub catch-all) |
+| `services/standby-generator-installation.jpg` | `standby-generator-installation` service |
+| `services/whole-house-generator-installation.jpg` | `whole-house-generator-installation` service |
+| `services/generator-repair.jpg` | `generator-repair` service |
+| `services/generator-maintenance.jpg` | `generator-maintenance` service |
+| `services/transfer-switch-installation.jpg` | `transfer-switch-installation` service |
+| `services/generator-replacement.jpg` | `generator-replacement` service |
+| `services/emergency-generator-service.jpg` | `emergency-generator-service` service (emergency) |
 
 Service photos are imported at the top of `src/config/services.ts`. Per-city overrides go in
 `city.serviceImages` / `city.heroImage` in `src/config/cities.ts`.
