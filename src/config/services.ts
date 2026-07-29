@@ -96,9 +96,9 @@ export const SERVICES: Service[] = [
   },
   {
     slug: 'standby-generator-installation',
-    name: 'Standby Generator Installation',
-    short: 'Generator Installation',
-    blurb: 'A new standby generator, sized right and installed to code — automatic backup power for your Henderson County home.',
+    name: 'Home Standby Generator Systems',
+    short: 'Standby Generators',
+    blurb: 'Automatic home standby generators — sized right and installed to code — for reliable whole-home backup power across Henderson County.',
     description:
       'A standby generator is a permanent unit that sits outside your home, runs on propane or natural gas, and starts automatically the moment the power drops — no cords, no portable to drag out in an ice storm. Installing one right is more than setting a box on the ground. We size the generator to your home with a real load calculation, set it on a proper pad with the clearances the code and the manufacturer require, wire in an automatic transfer switch, coordinate the gas hookup, and commission the unit so it starts, transfers, and runs the way it should. We install Generac and comparable standby generators across Henderson County. Out here the install also has to account for mountain realities — well and septic pumps that need to stay on, propane as the usual fuel, and homes on rural feeders that lose power often. We do it once, do it to code, and leave you with a system that brings the whole house back automatically while you are asleep or away.',
     sections: [
